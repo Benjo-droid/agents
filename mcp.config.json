@@ -31,8 +31,8 @@
     "orchestration/governed-loop",
     "orchestration/issue-plan",
     "orchestration/spec-author",
-    "operations/rotary-meeting-minutes",
-    "operations/rotary-annual-calendar",
-    "operations/rotary-speaker-brief"
+    "operations/meeting-minutes",
+    "operations/annual-calendar",
+    "operations/speaker-brief"
   ]
 }

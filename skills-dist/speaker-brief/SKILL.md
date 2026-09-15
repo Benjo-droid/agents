@@ -1,5 +1,5 @@
 ---
-name: rotary-speaker-brief
+name: speaker-brief
 description: "Prepare a practical speaker-session brief from an approved programme objective and available logistics."
 license: FSL-1.1-Apache-2.0
 metadata:
@@ -11,14 +11,14 @@ metadata:
 > `Ask First` / `Never` gates, and an audit-log contract, and passed
 > cross-model review before publication.
 >
-> **Generated file — do not edit.** Built from [`skills/operations/rotary-speaker-brief.md`](https://github.com/project-noemi/agents/blob/main/skills/operations/rotary-speaker-brief.md)
+> **Generated file — do not edit.** Built from [`skills/operations/speaker-brief.md`](https://github.com/project-noemi/agents/blob/main/skills/operations/speaker-brief.md)
 > in [project-noemi/agents](https://github.com/project-noemi/agents) by `node scripts/generate_all.js`.
 >
 > **License:** Functional Source License, Version 1.1, Apache 2.0 Future
 > License (FSL-1.1-Apache-2.0) — see [LICENSE](https://github.com/project-noemi/agents/blob/main/LICENSE)
 > before redistribution or commercial use.
 
-# Rotary Speaker Brief — Operations Skill
+# Speaker Brief — Operations Skill
 
 ## Global Mandates
 
@@ -123,7 +123,7 @@ Emit separately to `stderr` or the host's audit channel. Validate strings for `t
 
 ```json
 {
-  "task": "rotary-speaker-brief",
+  "task": "speaker-brief",
   "inputs": ["synthetic session brief", "knowledge sources: not consulted"],
   "actions": ["drafted running order", "verified duration total", "listed venue confirmations"],
   "risks": ["speaker biography and venue requirements unconfirmed"],

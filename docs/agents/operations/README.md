@@ -10,6 +10,6 @@ This directory contains documentation for agents specialized in knowledge manage
   - Spec: `agents/operations/qa-risk-manager.md`
 - **Multimodal Specialist**: Handles video and image analysis tasks.
   - Spec: `agents/operations/multimodal-specialist.md`
-- **Rotary Club Operations**: Helps club officers prepare plans, minutes, calendars, and speaker briefs with source verification and human decision ownership.
-  - [Live persona](../../../agents/operations/rotary-club-operations.md)
-  - [Explorer / Builder guide and direct NotebookLM access](../../examples/rotary-club-operations.md)
+- **Club Operations**: Helps volunteer-club officers prepare plans, minutes, calendars, and speaker briefs with source verification and human decision ownership.
+  - [Live persona](../../../agents/operations/club-operations.md)
+  - [Rotary deployment example](../../examples/rotary-club-operations.md)

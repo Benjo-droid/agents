@@ -175,7 +175,7 @@ Once the first local task works, choose one low-risk business use case:
 - draft, but do not send, a reply
 - extract action items from a meeting note
 
-For a concrete club example, try [Rotary Club Operations](rotary-club-operations.md): open the canonical NotebookLM notebooks directly, or load the operations persona and draft minutes, an annual calendar, and a speaker brief from synthetic inputs. The guide states the notebook-verification status and what a human reviewer should check.
+For a concrete club example, try [Rotary Club Operations](rotary-club-operations.md): it deploys the generic Club Operations persona. Open the canonical NotebookLM notebooks directly, or load `agents/operations/club-operations.md` and draft minutes, an annual calendar, and a speaker brief from synthetic inputs. The guide states the notebook-verification status and what a human reviewer should check.
 
 Keep the initial pilot inside these boundaries:
 

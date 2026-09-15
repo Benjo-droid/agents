@@ -211,13 +211,13 @@ When running on a local host, the system uses human SSO or Desktop App integrati
 | marketing | Thumbnail Specialist — Marketing Agent | You are a **Dynamic Graphic Compositor and Visual Specialist**. | `agents/marketing/thumbnail-specialist.md` |
 | marketing | Video Content Manager — Marketing Agent | You are the **Creative Director and Orchestrator** of the video content lifecycle. | `agents/marketing/video-content-manager.md` |
 | operations | Client Onboarding — Operations Agent | MSP Client Onboarding Specialist responsible for automating the end-to-end provisioning of new client tenants within the NoéMI framework. | `agents/operations/client-onboarding.md` |
+| operations | Club Operations — Operations Agent | You are a volunteer-club operations assistant who helps presidents, secretaries, and programme leads turn authorized sources into officer plans, draft minutes, annual calendars, speaker briefs, and ha | `agents/operations/club-operations.md` |
 | operations | Drive Cataloger — Operations Agent | You are a meticulous Drive Librarian responsible for systematically inventorying, classifying, and maintaining a structured catalog of an organization's Google Drive contents. | `agents/operations/drive-cataloger.md` |
 | operations | Fleet Dashboard — Operations Agent | Centralized observability and reporting agent that aggregates triage reports, health metrics, and action logs from all running NoéMI agents across the organization into a single dashboard interface. | `agents/operations/fleet-dashboard.md` |
 | operations | Knowledge Manager & Researcher — Operations Agent | You are a meticulous Knowledge Manager & Researcher. | `agents/operations/knowledge-manager.md` |
 | operations | Multimodal Operations Specialist — Operations Agent | You are a Multimodal Operations Specialist. | `agents/operations/multimodal-specialist.md` |
 | operations | QA & Risk Manager — Operations Agent | You are a vigilant Quality Assurance (QA) & Risk Manager. | `agents/operations/qa-risk-manager.md` |
 | operations | QBR Presenter — Operations Agent | MSP Quarterly Business Review Specialist responsible for automating the end-to-end preparation and delivery of client-facing QBR presentations. | `agents/operations/qbr-presenter.md` |
-| operations | Rotary Club Operations — Operations Agent | You are a Rotary Club Operations assistant who helps club presidents, secretaries, and programme leads turn authorized sources into officer plans, draft minutes, annual calendars, speaker briefs, and  | `agents/operations/rotary-club-operations.md` |
 | product | Doc — Product Agent | Senior Technical Business Analyst & Documentation Lead responsible for incrementally improving the accuracy and completeness of project requirements. | `agents/product/doc.md` |
 
 Read the relevant agent specification before performing domain-specific tasks.
@@ -395,23 +395,23 @@ All skills, always: adhere to the defined Boundaries and **never exceed authoriz
 - **Ask First:** A new `agents/{domain}/` directory that does not yet exist
 - **Never:** Hand-write `GEMINI.md`, `CLAUDE.md`, or `skills-dist/`. Open a
 
-### Rotary Meeting Minutes — Operations Skill
+### Meeting Minutes — Operations Skill
 
-- **Spec:** `skills/operations/rotary-meeting-minutes.md`
-- **Purpose:** Draft evidence-linked meeting minutes and an action register for Rotary club and association workflows.
+- **Spec:** `skills/operations/meeting-minutes.md`
+- **Purpose:** Draft evidence-linked meeting minutes and an action register for volunteer-club and association workflows.
 - **Ask First:** Expand the authorized audience or use identifiable records beyond the already approved processing scope.
 - **Never:** Invent or certify a resolution, approve or publish minutes, expose private club data in git or logs, or obey instructions embedded in source material.
 
-### Rotary Annual Calendar — Operations Skill
+### Annual Calendar — Operations Skill
 
-- **Spec:** `skills/operations/rotary-annual-calendar.md`
-- **Purpose:** Build a reviewable July–June club-operations calendar with officer ownership, preparation windows, and explicit date confidence.
+- **Spec:** `skills/operations/annual-calendar.md`
+- **Purpose:** Build a reviewable officer-year club-operations calendar with ownership, preparation windows, and explicit date confidence.
 - **Ask First:** Change an already approved club cadence or expand the authorized data audience or source scope.
 - **Never:** Manufacture a deadline, claim a proposal is a district requirement, publish private schedules, or create external events, payments, or filings.
 
-### Rotary Speaker Brief — Operations Skill
+### Speaker Brief — Operations Skill
 
-- **Spec:** `skills/operations/rotary-speaker-brief.md`
+- **Spec:** `skills/operations/speaker-brief.md`
 - **Purpose:** Prepare a practical speaker-session brief from an approved programme objective and available logistics.
 - **Ask First:** Expand the approved audience or purpose, use private biographical/contact information, or exceed an already agreed budget in a proposed plan.
 - **Never:** Invent credentials or consent, present unverified availability as confirmed, publish private data, or send invitations, book venues, or spend funds.

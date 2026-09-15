@@ -1,4 +1,4 @@
-# Rotary Speaker Brief — Operations Skill
+# Speaker Brief — Operations Skill
 
 ## Purpose
 
@@ -74,7 +74,7 @@ Emit separately to `stderr` or the host's audit channel. Validate strings for `t
 
 ```json
 {
-  "task": "rotary-speaker-brief",
+  "task": "speaker-brief",
   "inputs": ["synthetic session brief", "knowledge sources: not consulted"],
   "actions": ["drafted running order", "verified duration total", "listed venue confirmations"],
   "risks": ["speaker biography and venue requirements unconfirmed"],

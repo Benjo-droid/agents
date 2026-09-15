@@ -205,9 +205,9 @@ All reference tooling and Docker images use **Node.js 24** as the technical base
 → [docs/examples/build-your-coding-loop.md](docs/examples/build-your-coding-loop.md)
 (Issue → plan → PR on your private `{company}-agents` copy)
 
-**Rotary club officers / Explorers and Builders**
-→ [Rotary Club Operations](docs/examples/rotary-club-operations.md)
-(Direct NotebookLM access, source coverage, and a governed persona with minutes, calendar, and speaker-brief exercises)
+**Volunteer club officers / Explorers and Builders**
+→ [Club operations (Rotary example)](docs/examples/rotary-club-operations.md)
+(A generic club-operations persona plus a Rotary District 1911 deployment; minutes, calendar, and speaker-brief exercises)
 
 **Onboarding by Platform** — go straight to the guide for your machine and get one safe, read-only AI win in ~15 minutes:
 → [macOS / Linux](docs/examples/macos-linux-kickstart.md)
