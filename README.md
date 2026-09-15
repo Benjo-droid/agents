@@ -206,7 +206,7 @@ All reference tooling and Docker images use **Node.js 24** as the technical base
 (Issue → plan → PR on your private `{company}-agents` copy)
 
 **Volunteer club officers / Explorers and Builders**
-→ [Club operations (Rotary example)](docs/examples/rotary-club-operations.md)
+→ [Club operations (Rotary example)](examples/rotary-club-operations/)
 (A generic club-operations persona plus a Rotary District 1911 deployment; minutes, calendar, and speaker-brief exercises)
 
 **Onboarding by Platform** — go straight to the guide for your machine and get one safe, read-only AI win in ~15 minutes:
